@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bill Passawe's Portfolio</title>
+    <title>Bill Passawe</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,500;0,700;1,500;1,700&display=swap"
         rel="stylesheet">
@@ -19,36 +19,140 @@
 </head>
 
 <body>
-    <!-- navigation toggle button -->
-    <div class="nav">
-        <button class="btn-nav">
-            <span class="icon-bar top"></span>
-            <span class="icon-bar middle"></span>
-            <span class="icon-bar bottom"></span>
-        </button>
-    </div>
-    <!-- navigation -->
-    <div class="nav-content hideNav hidden">
-        <ul class="nav-list">
-            <li class="nav-item"><a href="#home" class="item-anchor">Home</a></li>
-            <li class="nav-item"><a href="#about" class="item-anchor">About</a></li>
-            <li class="nav-item"><a href="#works" class="item-anchor">Works</a></li>
-            <li class="nav-item"><a href="#contact" class="item-anchor">Contact</a></li>
-        </ul>
-    </div>
-    <!-- hero section -->
-    <div id="home" class="hero">
+    <!-- page header -->
+    <header id="header">
+        <!-- sticky nav toggle button -->
+        <div class="nav">
+            <button class="btn-nav">
+                <span class="icon-bar top"></span>
+                <span class="icon-bar middle"></span>
+                <span class="icon-bar bottom"></span>
+            </button>
+        </div>
+        <!-- navigation -->
+        <nav class="nav-content hideNav hidden">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="item-anchor" id="homeLink">Home</a></li>
+                <li class="nav-item"><a href="#about" class="item-anchor" id="aboutLink">About</a></li>
+                <li class="nav-item"><a href="#projects" class="item-anchor" id="projectLink">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="item-anchor" id="contactLink">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- hero -->
+    <section class="hero-box" id="home">
         <div class="hero-content">
             <h1>Creating</h1>
             <h2>Excellent</h2>
             <h3>Web experiences</h3>
             <h4>for your <span>business</span></h4>
         </div>
-    </div>
-    <!-- about section -->
-    
-    </div>
-    <script src="./js/scripts.js"></script>
+    </section>
+    <!-- about header -->
+    <section class="about-header-box" id="about">
+        <div class="about-title">
+            <h2>About</h2>
+            <div class="open-about">
+                <span class="open-about-tag">+</span>
+            </div>
+        </div>
+    </section>
+    <!-- about hidden content -->
+    <section class="about-text-box hidden">
+        <div class="about-text">
+            <div>
+                <div class="close-about">
+                    <span class="close-about-tag">_</span>
+                </div>
+            </div>
+            <div class="bio">
+                <p>Hi, my name is Bill and I have been a front-end developer since 2018. I have a foundation degree in Web Development, but I am mainly self-taught when it comes to web development. I love working on projects of any kind, and I am open to freelance work! Check my projects in the Projects section and feel free to get in touch.</p>
+
+                <p>In my spare time I like to read about development topics, and being with my family. I also like to hang out sometimes with my friends.</p>
+
+                <p>My skills are:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- project header -->
+    <section class="project-header-box" id="projects">
+        <div class="project-title">
+            <h2>Projects</h2>
+            <div class="open-project">
+                <span class="open-project-tag">+</span>
+            </div>
+        </div>
+    </section>
+    <!-- project hidden content -->
+    <section class="project-content-box hidden">
+        <div class="project-inner-container">
+            <div class="close-project">
+                <div>
+                    <span class="close-project-tag">_</span>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/bo_sport_project.jpg" alt="">
+                    <div class="intro">
+                        <h4>Bo Sport Club</h4>
+                        <p>Bo Sport Club is a fictional sport club website that was built using CSS Flexbox and Responsive techniques. The site is layout using flex containers and child elements. The site is also responsive. That means it can be viewed on most screen sizes.</p>
+                    </div>
+                </div>
+                <!--
+                <div class="card">
+                    <img src="images/bo_sport_project.jpg" alt="">
+                    <div class="intro">
+                        <h4>Project 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita error quasi et, hic, nobis obcaecati ullam, facere quibusdam est similique omnis. Quisquam fugiat nemo consequatur doloribus iste unde ex?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/bo_sport_project.jpg" alt="">
+                    <div class="intro">
+                        <h4>Project 3</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita error quasi et, hic, nobis obcaecati ullam, facere quibusdam est similique omnis. Quisquam fugiat nemo consequatur doloribus iste unde ex?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/bo_sport_project.jpg" alt="">
+                    <div class="intro">
+                        <h4>Project 3</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita error quasi et, hic, nobis obcaecati ullam, facere quibusdam est similique omnis. Quisquam fugiat nemo consequatur doloribus iste unde ex?</p>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contact-box" id="contact">
+            <h2>Get in touch</h2>
+        </div>
+        <hr>
+        <div class="social-media">
+            <a href="https://twitter.com/bpassawe" class="twitter" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/bpassawe" class="facebook" target="_blank">Facebook</a>
+            <a href="https://instagram.com/billpassawe" class="instagram" target="_blank">Instagram</a>
+        </div>
+        <div class="contact-details">
+            <div class="copy">
+                <p>&copy;2023 by Bill Passawe</p>
+            </div>
+            <div class="email">
+                <p>bpassawe@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
